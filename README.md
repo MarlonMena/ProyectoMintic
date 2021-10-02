@@ -1,2 +1,2 @@
 # ProyectoMintic
-Repositorio del proyecto mintic
+Repositorio del proyecto mintic version 1
