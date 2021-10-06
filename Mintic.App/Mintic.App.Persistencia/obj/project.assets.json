@@ -2071,7 +2071,7 @@
       },
       "Mintic.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/Mintic.App.Dominio.dll": {}
         },
@@ -7263,31 +7263,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luis\\.nuget\\packages\\": {}
+    "C:\\Users\\joseb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
       "projectName": "Mintic.App.Persistencia",
-      "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
+      "projectPath": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
-              "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
+            "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+              "projectPath": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
             }
           }
         }
