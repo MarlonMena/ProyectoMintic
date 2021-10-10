@@ -13,7 +13,7 @@ namespace Mintic.App.Persistencia.AppRepositories
 
         protected override void OnConfiguring(DbContextOptionsBuilder conn){
             if(!conn.IsConfigured){
-                conn.UseSqlServer("Data source = (localdb)\\MSSQLLocalDB; Initial Catalog = MisionTic");
+                conn.UseSqlServer("Data source = (localdb)\\MSSQLLocalDB; Initial Catalog = MisionTic3");
             }
         }
         

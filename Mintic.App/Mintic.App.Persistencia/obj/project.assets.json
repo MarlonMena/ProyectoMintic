@@ -7263,33 +7263,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joseb\\.nuget\\packages\\": {}
+    "C:\\Users\\Marlon Mena\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+      "projectUniqueName": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
       "projectName": "Mintic.App.Persistencia",
-      "projectPath": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
+      "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Marlon Mena\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Marlon Mena\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
-              "projectPath": "C:\\ProyectosMintic\\RepositorioProyecto\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
+            "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+              "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
             }
           }
         }

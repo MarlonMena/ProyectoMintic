@@ -22,3 +22,15 @@ C:\ProyectosMintic\RepositorioProyecto\ProyectoMintic\Mintic.App\Mintic.App.Pers
 C:\ProyectosMintic\RepositorioProyecto\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfo.cs
 C:\ProyectosMintic\RepositorioProyecto\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CoreCompileInputs.cache
 C:\ProyectosMintic\RepositorioProyecto\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CopyComplete
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.deps.json
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.dll
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.pdb
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Dominio.dll
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Dominio.pdb
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csprojAssemblyReference.cache
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfoInputs.cache
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfo.cs
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CopyComplete
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.dll
+D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.pdb

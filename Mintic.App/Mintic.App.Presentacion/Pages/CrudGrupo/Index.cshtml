@@ -2,21 +2,22 @@
 @model Mintic.App.Presentacion.Pages.CrudGrupo.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Grupos";
 }
-
-<h1>Index</h1>
-
 <p>
-    <a asp-page="Create">Create New</a>
+   <a class="btn btn-primary" asp-page="Create">Crear un grupo</a>
 </p>
-<table class="table">
+<div class="panel-primary">
+    <div class="panel-heading"> Lista de grupos </div>
+</div>
+
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Grupo[0].CodigoGrupo)
             </th>
-            <th></th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -26,9 +27,16 @@
                 @Html.DisplayFor(modelItem => item.CodigoGrupo)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                <div class="dropdown">
+                    <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle" aria-haspopup="true" aria-expanded="true">Ver mas <span class="caret"></span></button>
+                    <ul class="dropdown-menu" style="position: relative;">
+                      <div class="d-grid gap-2 col-6 mx-auto">
+                        <li><a asp-page="./Edit" asp-route-id="@item.Id">Editar</a></li>
+                        <li><a asp-page="./Details" asp-route-id="@item.Id">Detalles</a> </li>
+                        <li><a asp-page="./Delete" asp-route-id="@item.Id">Eliminar</a></li>
+                      </div>  
+                    </ul>
+                </div>
             </td>
         </tr>
 }
