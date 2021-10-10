@@ -2,17 +2,31 @@
 @model Mintic.App.Presentacion.Pages.CrudNota.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Notas";
 }
+<style>
+  body {
+      background: url("https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/Background.png?raw=true"); 
+      background-size: 100;
+	  background-repeat: no-repeat;
+      background-position: center;
+ }
+ </style>
 
-<p>
+<div class="container">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/LogoUCaldas.png?raw=true" align="" width="150" height="90">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/LogoMintic.png?raw=true" align="" width="150" height="90">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/Admin.png?raw=true" align="right" width="100" height="90">
+</div>
+<br>
+
    <a class="btn btn-primary" asp-page="Create">Insertar notas </a>
-</p>
+
 <div class="panel-primary">
-    <div class="panel-heading"> Lista de notas </div>
+    <div class="panel-heading"><h4>Lista de notas </h4> </div>
 </div>
 <table class="table table-bordered">
-    <thead>
+    <thead style="background-color: #CCCCCC" align="center">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Nota[0].Nota1)
@@ -32,7 +46,7 @@
             <th>Acciones</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody align="center">
 @foreach (var item in Model.Nota) {
         <tr>
             <td>
@@ -65,4 +79,10 @@
         </tr>
 }
     </tbody>
-</table>
+</table><br><br>
+<div class="container" align="center">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/Facebook.png?raw=true" align ="center" width="50" height="30" hspace="10">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/Twitter.png?raw=true" align="center" width="50" height="30" hspace="10">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/Youtube.png?raw=true" align="center" width="50" height="30" hspace="10">
+    <img src="https://github.com/MarlonMena/ProyectoMintic/blob/main/Mintic.App/Iconos/Ayuda.png?raw=true" align="Right" width="50" height="30">
+</div>
