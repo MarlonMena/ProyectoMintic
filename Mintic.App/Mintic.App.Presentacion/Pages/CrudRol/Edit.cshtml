@@ -2,12 +2,14 @@
 @model Mintic.App.Presentacion.Pages.CrudRol.EditModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "EditarRol";
 }
 
-<h1>Edit</h1>
+<h1>Edita Rol</h1>
 
-<h4>Rol</h4>
+<div class="alert alert-info" role="alert">
+  Reemplace los datos deseados, luego haga clic en el botón enviar para guardar los cambios.
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -15,25 +17,24 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Rol.Id" />
             <div class="form-group">
-                <label asp-for="Rol.NombreRol" class="control-label"></label>
+                <label asp-for="Rol.NombreRol" class="control-label">Nombre</label>
                 <input asp-for="Rol.NombreRol" class="form-control" />
                 <span asp-validation-for="Rol.NombreRol" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Rol.CodigoRol" class="control-label"></label>
+                <label asp-for="Rol.CodigoRol" class="control-label">Código</label>
                 <input asp-for="Rol.CodigoRol" class="form-control" />
                 <span asp-validation-for="Rol.CodigoRol" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a asp-page="./Index" class="btn btn-secondary">Atras</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

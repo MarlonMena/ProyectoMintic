@@ -2,12 +2,14 @@
 @model Mintic.App.Presentacion.Pages.CrudNota.EditModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "EditarNotas";
 }
 
-<h1>Edit</h1>
+<h1>Editar Notas Estudiantes</h1>
 
-<h4>Nota</h4>
+<div class="alert alert-info" role="alert">
+  Reemplace los datos deseados, luego haga clic en el botón enviar para guardar los cambios.
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -15,40 +17,38 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Nota.Id" />
             <div class="form-group">
-                <label asp-for="Nota.Nota1" class="control-label"></label>
+                <label asp-for="Nota.Nota1" class="control-label">Nota 1</label>
                 <input asp-for="Nota.Nota1" class="form-control" />
                 <span asp-validation-for="Nota.Nota1" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Nota.Nota2" class="control-label"></label>
+                <label asp-for="Nota.Nota2" class="control-label">Nota 2</label>
                 <input asp-for="Nota.Nota2" class="form-control" />
                 <span asp-validation-for="Nota.Nota2" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Nota.Nota3" class="control-label"></label>
+                <label asp-for="Nota.Nota3" class="control-label">Nota 3</label>
                 <input asp-for="Nota.Nota3" class="form-control" />
                 <span asp-validation-for="Nota.Nota3" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Nota.Nota4" class="control-label"></label>
+                <label asp-for="Nota.Nota4" class="control-label">Nota 4</label>
                 <input asp-for="Nota.Nota4" class="form-control" />
                 <span asp-validation-for="Nota.Nota4" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Nota.Nota5" class="control-label"></label>
+                <label asp-for="Nota.Nota5" class="control-label">Nota 5</label>
                 <input asp-for="Nota.Nota5" class="form-control" />
                 <span asp-validation-for="Nota.Nota5" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a asp-page="./Index" class="btn btn-secondary">Atras</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

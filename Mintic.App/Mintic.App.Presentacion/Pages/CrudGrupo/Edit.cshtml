@@ -2,18 +2,21 @@
 @model Mintic.App.Presentacion.Pages.CrudGrupo.EditModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "EditEditarGrupo";
 }
 
-<h1>Edit</h1>
+<h1>Editar Grupo</h1>
 
-<h4>Grupo</h4>
+<div class="alert alert-info" role="alert">
+  Reemplace los datos deseados, luego haga clic en el botón enviar para guardar los cambios.
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Grupo.Id" />
+
             <div class="form-group">
                 <label asp-for="Grupo.CodigoGrupo" class="control-label">Código</label>
                 <input asp-for="Grupo.CodigoGrupo" class="form-control" placeholder="Ej: G-55" />

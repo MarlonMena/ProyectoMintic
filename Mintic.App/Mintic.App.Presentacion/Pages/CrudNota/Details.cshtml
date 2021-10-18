@@ -2,13 +2,15 @@
 @model Mintic.App.Presentacion.Pages.CrudNota.DetailsModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "DetallesNotas";
 }
 
-<h1>Details</h1>
+<h1>Detalles de las notas</h1>
 
 <div>
-    <h4>Nota</h4>
+    <div class="alert alert-info" role="alert">
+        Los siguientes son los detalles del registro seleccionado.
+    </div>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -44,6 +46,6 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Nota.Id">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Nota.Id" class="btn btn-primary">Editar</a> |
+    <a asp-page="./Index" class="btn btn-secondary">Atras</a>
 </div>

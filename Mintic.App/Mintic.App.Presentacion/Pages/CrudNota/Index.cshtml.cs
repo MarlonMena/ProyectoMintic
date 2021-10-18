@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Mintic.App.Dominio;
 using Mintic.App.Persistencia.AppRepositories;
-
+using Microsoft.AspNetCore.Http;
 namespace Mintic.App.Presentacion.Pages.CrudNota
 {
     public class IndexModel : PageModel
