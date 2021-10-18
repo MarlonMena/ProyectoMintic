@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj": {}
+    "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj": {}
   },
   "projects": {
-    "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+    "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj",
         "projectName": "Mintic.App.Dominio",
-        "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Marlon Mena\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\obj\\",
+        "projectPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marlon Mena\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,33 +52,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj": {
+    "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
         "projectName": "Mintic.App.Persistencia",
-        "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Marlon Mena\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
+        "projectPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marlon Mena\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
-                "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
+              "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+                "projectPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
               }
             }
           }
@@ -126,36 +130,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj": {
+    "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj",
+        "projectUniqueName": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj",
         "projectName": "Mintic.App.Presentacion",
-        "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj",
-        "packagesPath": "C:\\Users\\Marlon Mena\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\obj\\",
+        "projectPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\Mintic.App.Presentacion.csproj",
+        "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marlon Mena\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
-                "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
+              "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+                "projectPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
               },
-              "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj": {
-                "projectPath": "D:\\CSharpProjects\\Repositorio\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj"
+              "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj": {
+                "projectPath": "C:\\ProyectosMintic\\RepositorioProyectoFinal\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj"
               }
             }
           }
@@ -169,6 +175,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -202,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     }

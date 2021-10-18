@@ -16,3 +16,12 @@ D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\D
 D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.csproj.CoreCompileInputs.cache
 D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.dll
 D:\CSharpProjects\Repositorio\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.pdb
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\bin\Debug\netstandard2.1\Mintic.App.Dominio.deps.json
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\bin\Debug\netstandard2.1\Mintic.App.Dominio.dll
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\bin\Debug\netstandard2.1\Mintic.App.Dominio.pdb
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.csprojAssemblyReference.cache
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.AssemblyInfo.cs
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.dll
+C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Dominio\obj\Debug\netstandard2.1\Mintic.App.Dominio.pdb

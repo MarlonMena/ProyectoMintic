@@ -19,15 +19,13 @@ namespace Mintic.App.Presentacion.Pages.CrudNota
             _context = context;
         }
 
-        //public SelectList Alumnos;
+        public SelectList Estudiantes;
 
         public IActionResult OnGet()
         {
-            //var listadoAlumnos = _context.Estudiantes.ToList();
-
-            //estudiantes = new SelectList(listadoAlumnos, 
-                        //nameof(Estudiantes.Id), nameof(Estudiantes.Nombres), null, null);
-
+            var ListadoEstudiantes = _context.Estudiantes.ToList();
+            Estudiantes = new SelectList(ListadoEstudiantes, nameof(Estudiante.Id), nameof(Estudiante.Apellidos),
+            nameof(Estudiante.Apellidos), nameof(Estudiante.Cedula));
             return Page();
         }
 

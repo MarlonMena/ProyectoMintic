@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Misiontic.App.Consola")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Mintic.App.Consola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Misiontic.App.Consola")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Misiontic.App.Consola")]
+[assembly: System.Reflection.AssemblyProductAttribute("Mintic.App.Consola")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Mintic.App.Consola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

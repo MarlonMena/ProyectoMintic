@@ -23,7 +23,7 @@ namespace Mintic.App.Presentacion.Pages.CrudGrupo
 
         public async Task OnGetAsync()
         {
-            Grupo = await _context.Grupos.ToListAsync();
+            Grupo = await _context.Grupos.Include(g => g.Formador).Include(g => g.Tutor).ToListAsync();
         }
     }
 }

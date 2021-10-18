@@ -41,6 +41,12 @@
                 @Html.DisplayFor(modelItem => item.CodigoGrupo)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Formador.Nombres) @Html.DisplayFor(modelItem => item.Formador.Apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tutor.Nombres) @Html.DisplayFor(modelItem => item.Tutor.Apellidos)
+            </td>
+            <td>
                 <div class="dropdown">
                     <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle" aria-haspopup="true" aria-expanded="true">Ver mas <span class="caret"></span></button>
                     <ul class="dropdown-menu" style="position: relative;">

@@ -36,6 +36,9 @@ namespace Mintic.App.Presentacion.Pages.CrudPersona
                 return Page();
             }
 
+            Persona.Password = Persona.Cedula;
+            Persona.PrimerRegistro = true;
+
             _context.Personas.Add(Persona);
             await _context.SaveChangesAsync();
 

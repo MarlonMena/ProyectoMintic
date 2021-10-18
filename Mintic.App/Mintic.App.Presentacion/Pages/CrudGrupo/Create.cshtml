@@ -14,10 +14,29 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
+
+                <label asp-for="Grupo.Formador" class="control-label"></label>
+                <select asp-for="FormadorID" class="form-control" asp-items="Model.ListaFormadores">
+                    <option>Seleccione un Formador</option>
+                </select>
+                <span asp-validation-for="Grupo.Formador" class="text-danger">@Model.Mensaje</span>
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Grupo.Tutor" class="control-label"></label>
+                <select asp-for="TutorID" class="form-control" asp-items="Model.ListaTutores">
+                    <option>Seleccione un Tutor</option>
+                </select>
+                <span asp-validation-for="Grupo.Tutor" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
                 <label asp-for="Grupo.CodigoGrupo" class="control-label"></label>
                 <input asp-for="Grupo.CodigoGrupo" class="form-control" />
                 <span asp-validation-for="Grupo.CodigoGrupo" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -30,5 +49,5 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
