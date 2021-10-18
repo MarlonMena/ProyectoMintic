@@ -2,12 +2,14 @@
 @model Mintic.App.Presentacion.Pages.CrudGrupo.CreateModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "CrearGrupos";
 }
 
-<h1>Create</h1>
+<h1>Crear Grupos</h1>
 
-<h4>Grupo</h4>
+<div class="alert alert-info" role="alert">
+    Digite todos los datos y luego haga clic en el botón enviar para guardar el registro
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -32,20 +34,17 @@
             </div>
 
             <div class="form-group">
-                <label asp-for="Grupo.CodigoGrupo" class="control-label"></label>
-                <input asp-for="Grupo.CodigoGrupo" class="form-control" />
+                <label asp-for="Grupo.CodigoGrupo" class="control-label">Código del grupo</label>
+                <input asp-for="Grupo.CodigoGrupo" class="form-control" placeholder="Ej:G-55"/>
                 <span asp-validation-for="Grupo.CodigoGrupo" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Enviar" class="btn btn-primary"/>
+                <a asp-page="Index" class="btn btn-secondary">Atras</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-page="Index">Back to List</a>
 </div>
 
 @section Scripts {

@@ -27,6 +27,7 @@ namespace Mintic.App.Presentacion.Pages
             Conexion conexion = new Conexion();
             var Usuario = HttpContext.Session.GetString("Usuario");
             var p = conexion.Personas.FirstOrDefault(p => p.Usuario == Usuario);
+            
             if(Password.Equals(RepeatPassword)){
                 Mensaje = "Contraseña modificada exitosamente";
                 p.Password = Password;

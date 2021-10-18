@@ -46,3 +46,15 @@ C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App
 C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CopyComplete
 C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.dll
 C:\ProyectosMintic\RepositorioProyectoFinal\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.pdb
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.deps.json
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.dll
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.pdb
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Dominio.dll
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Dominio.pdb
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csprojAssemblyReference.cache
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfoInputs.cache
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfo.cs
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CopyComplete
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.dll
+D:\CSharpProjects\RepositorioCodigoAzul\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.pdb

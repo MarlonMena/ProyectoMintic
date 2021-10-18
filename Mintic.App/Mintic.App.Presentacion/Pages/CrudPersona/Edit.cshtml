@@ -2,12 +2,14 @@
 @model Mintic.App.Presentacion.Pages.CrudPersona.EditModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "EditarPersona";
 }
 
-<h1>Edit</h1>
+<h1>Editar datos de persona</h1>
+<div class="alert alert-info" role="alert">
+   Reemplace los datos deseados, luego haga clic en el botón enviar para guardar el registro.
+</div>
 
-<h4>Persona</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -15,79 +17,76 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Persona.Id" />
             <div class="form-group">
-                <label asp-for="Persona.Nombres" class="control-label"></label>
+                <label asp-for="Persona.Nombres" class="control-label">Nombre(s)</label>
                 <input asp-for="Persona.Nombres" class="form-control" />
                 <span asp-validation-for="Persona.Nombres" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Apellidos" class="control-label"></label>
+                <label asp-for="Persona.Apellidos" class="control-label">Apellido(s)</label>
                 <input asp-for="Persona.Apellidos" class="form-control" />
                 <span asp-validation-for="Persona.Apellidos" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Codigo" class="control-label"></label>
+                <label asp-for="Persona.Codigo" class="control-label">Código</label>
                 <input asp-for="Persona.Codigo" class="form-control" />
                 <span asp-validation-for="Persona.Codigo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Edad" class="control-label"></label>
+                <label asp-for="Persona.Edad" class="control-label">Edad</label>
                 <input asp-for="Persona.Edad" class="form-control" />
                 <span asp-validation-for="Persona.Edad" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Cedula" class="control-label"></label>
+                <label asp-for="Persona.Cedula" class="control-label">Documento de identidad</label>
                 <input asp-for="Persona.Cedula" class="form-control" />
                 <span asp-validation-for="Persona.Cedula" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Email" class="control-label"></label>
+                <label asp-for="Persona.Email" class="control-label">Email</label>
                 <input asp-for="Persona.Email" class="form-control" />
                 <span asp-validation-for="Persona.Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Celular" class="control-label"></label>
+                <label asp-for="Persona.Celular" class="control-label">Celular</label>
                 <input asp-for="Persona.Celular" class="form-control" />
                 <span asp-validation-for="Persona.Celular" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Municipio" class="control-label"></label>
-                <input asp-for="Persona.Municipio" class="form-control" />
-                <span asp-validation-for="Persona.Municipio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Persona.Departamento" class="control-label"></label>
+                <label asp-for="Persona.Departamento" class="control-label">Departamento</label>
                 <input asp-for="Persona.Departamento" class="form-control" />
                 <span asp-validation-for="Persona.Departamento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Fijo" class="control-label"></label>
+                <label asp-for="Persona.Municipio" class="control-label">Municipio</label>
+                <input asp-for="Persona.Municipio" class="form-control" />
+                <span asp-validation-for="Persona.Municipio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Persona.Fijo" class="control-label">Fijo</label>
                 <input asp-for="Persona.Fijo" class="form-control" />
                 <span asp-validation-for="Persona.Fijo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Direccion" class="control-label"></label>
+                <label asp-for="Persona.Direccion" class="control-label">Dirección</label>
                 <input asp-for="Persona.Direccion" class="form-control" />
                 <span asp-validation-for="Persona.Direccion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Persona.Usuario" class="control-label"></label>
+                <label asp-for="Persona.Usuario" class="control-label">Usuario</label>
                 <input asp-for="Persona.Usuario" class="form-control" />
                 <span asp-validation-for="Persona.Usuario" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Persona.Password" class="control-label"></label>
+           <!-- <div class="form-group">
+                <label asp-for="Persona.Password" class="control-label">Contraseña</label>
                 <input asp-for="Persona.Password" class="form-control" type="password"/>
                 <span asp-validation-for="Persona.Password" class="text-danger"></span>
-            </div>
+            </div>-->
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a asp-page="./Index" class="btn btn-secondary">Atras</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-page="./Index">Back to List</a>
 </div>
 
 @section Scripts {
